@@ -1,0 +1,51 @@
+
+// entries is a multidimensional array
+// array and string method of js
+// rest-iterator
+// spread-is a generator
+// function constructor -react
+// hook =>inside the constructor
+
+to degrade the version of npm = npm install -g npm@version @version add the version we require
+steps to install
+
+1)to create react app $ npm install -g create-react-app//g means globally
+2) create-react-app (app name)
+3)npm install --force forcefully install this when we get the error of creating 
+4)npm install web-vitals
+5)cd project 1
+6)npm start
+$ create-react-app --version//see the the react app version=>once create app is installed start project
+//for normal project
+ create-react-app (app name)use - it is valid and not the underscore
+
+cd project1
+
+#short cut to open the project in any directory use  code . to open in the vs code
+realdom -the virtual structure will be  converted to the html,css or =>current real template(index.html)
+component insert into the real dom(each html element)
+data flow - any data from parent to child =>props  no  other direction here (attribute is the medium) attribute are also known as props
+state=>data is stored in the component
+state is variable create within the component  and state can't be accessed from the other components
+routers=>navigate from one virtual view to other virtual view
+//no script tag is used if there ins no link to external scripts 
+app.js is virtual dom 
+moving fromm virtual to real dom  connection is called rendering 
+
+const root = ReactDOM.createRoot(document.getElementById('root'));linking the virtual to real dom connection is called rendering
+root.render(
+  <React.StrictMode>
+    <App />//data binding or method binding
+  </React.StrictMode>
+);
+npm install after uploading in the after the github for node files because node files will not be present
+//for the older version of react to support
+
+npm install --force forcefully install this when we get the error of creating 
+npm start
+
+To start the project
+git clone https://github.com/Bharathraj2107/React-19-template-from the react 19 in github
+do npm install for node files to install
+cd to project folder
+do npm start
