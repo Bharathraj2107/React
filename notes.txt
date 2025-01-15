@@ -46,6 +46,56 @@ npm start
 
 To start the project
 git clone https://github.com/Bharathraj2107/React-19-template-from the react 19 in github
-do npm install for node files to install
 cd to project folder
+do npm install for node files to install
+npm install --force 
+npm install web-vitals
+
 do npm start
+we can send the variable to the other component through props and that must be child 
+state-(local/global variable) 
+
+we can export a component from the class and import it in the function and bind it it will run without producing the error
+component
+
+import React, { Component } from 'react';
+
+class MyComponent extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { count: 0 };
+
+    // Binding the method
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick() {
+    this.setState({ count: this.state.count + 1 });
+  }
+
+  render() {
+    return (
+      <div>
+        <button onClick={this.handleClick}>Click Me: {this.state.count}</button>
+      </div>
+    );
+  }
+}
+
+export default MyComponent; 
+
+
+(The exported component is imported here )
+import React from 'react';
+import MyComponent from './MyComponent';
+
+function App() {
+  return (
+    <div>
+      <MyComponent />
+    </div>
+  );
+}
+
+export default App;
+
