@@ -12,7 +12,7 @@ steps to install
 1)to create react app $ npm install -g create-react-app//g means globally
 2) create-react-app (app name)
 3)npm install --force forcefully install this when we get the error of creating 
-4)npm install web-vitals
+4)npm install --save web-vitals
 5)cd project 1
 6)npm start
 $ create-react-app --version//see the the react app version=>once create app is installed start project
@@ -44,12 +44,13 @@ npm install after uploading in the after the github for node files because node 
 npm install --force forcefully install this when we get the error of creating 
 npm start
 
+//for laptop
 To start the project
 git clone https://github.com/Bharathraj2107/React-19-template-from the react 19 in github
 cd to project folder
 do npm install for node files to install
 npm install --force 
-npm install web-vitals
+npm i --save web-vitals
 
 do npm start
 we can send the variable to the other component through props and that must be child 
@@ -98,4 +99,6 @@ function App() {
 }
 
 export default App;
+
+*lifting state =>from child to parent  through only method
 
