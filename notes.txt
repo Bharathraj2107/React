@@ -43,7 +43,9 @@ npm install after uploading in the after the github for node files because node 
 
 npm install --force forcefully install this when we get the error of creating 
 npm start
-
+************************
+npm i --save react-router-dom bootstrap bootstrap-icons (it is a dependence specify used for router navigations(side,collapsible, for menu switch between the pages) )
+*****************
 //for laptop
 To start the project
 git clone https://github.com/Bharathraj2107/React-19-template-from the react 19 in github
@@ -51,6 +53,7 @@ cd to project folder
 do npm install for node files to install
 npm install --force 
 npm i --save web-vitals
+
 
 do npm start
 we can send the variable to the other component through props and that must be child 
