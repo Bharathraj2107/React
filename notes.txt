@@ -48,7 +48,7 @@ npm i --save react-router-dom bootstrap bootstrap-icons (it is a dependence spec
 *****************
 //for laptop
 To start the project
-git clone https://github.com/Bharathraj2107/React-19-template-from the react 19 in github
+git clone https://github.com/Bharathraj2107/React-19-template- from the react 19 in github
 cd to project folder
 do npm install for node files to install
 npm install --force 
@@ -104,4 +104,9 @@ function App() {
 export default App;
 
 *lifting state =>from child to parent  through only method
+
+$ npm i --save bootstrap bootstrap-icons axios react-toastify=> the axios is mini version of ajax 
+
+$ npm i --save react-router-dom-This is used for the navigation bar  
+
 
